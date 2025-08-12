@@ -27,6 +27,7 @@ class ConnectedUsers {
       this.users = new Set();
     }
 
+    console.log(this.users);
     return this.users.size;
   };
 }
